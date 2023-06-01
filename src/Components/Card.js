@@ -1,5 +1,5 @@
 import React from 'react'
-
+// import { ReactPropTypes } from 'react'
 export default function 
 (props) {
   return (
@@ -10,8 +10,8 @@ export default function
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuXXVznwdR_ZJcz_PvYozc34bhys9Z-bkFlA&usqp=CAU" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">{props.title}</h5>
+                            <p className="card-text">{props.dstate}</p>
                             <h3 className="card-text">{props.degree}</h3>
-                            <h3 className="card-text">{props.dstate}</h3>
 
                         </div>
                     </div>
