@@ -13,7 +13,7 @@ export default function Home() {
         setSearch(event.target.value)
     }
     const Searchkaro = () => {
-        // setSearch(Name)
+        
         }
     
     
